@@ -2,6 +2,8 @@
   <div id="app">
     <router-link  to="/">Home</router-link>
     <router-link  to="/blendMode">BlendyMode</router-link>
+    <router-link  to="/parallex">Parallex</router-link>
+
     <router-view></router-view>
 
   </div>
