@@ -3,6 +3,7 @@ import VueRouter from "vue-router"
 
 import BlendyMode from "@/components/BlendyMode";
 import Parallex from "@/components/Parallex";
+import FinalParallex from "@/components/FinalParallex";
 // import HelloWorld from "@/components/HelloWorld";
 
 Vue.use(VueRouter)
@@ -14,6 +15,7 @@ const router = new VueRouter({
     routes:[
         {path: "/blendMode", component:BlendyMode },
         {path: "/parallex", component:Parallex },
+        {path: "/finalParallex", component:FinalParallex },
         {path:"/", component:Home}
     ]
 })
