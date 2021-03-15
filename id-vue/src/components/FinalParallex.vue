@@ -11,7 +11,9 @@
       </div>
     </section>
     <section class="below-section">
-
+      <div class="image-wrap" >
+        <div class="parallax_image" id="parallax_6"></div>
+      </div>
     </section>
   </div>
 </template>
@@ -33,6 +35,11 @@ export default {
 section.mainPage .imageWrap {
   height: 1100px;
   overflow-y: hidden;
+}
+
+section.below-section .imageWrap{
+  height: 1100px;
+  overflow-y:hidden;
 }
 
 
@@ -68,6 +75,15 @@ section.mainPage .imageWrap .parallax_image:nth-child(5) {
 section.mainPage .imageWrap .parallax_image:nth-child(6) {
   background-image: url(../assets/main_5.png);
   background-size: cover;
+}
+
+section.below-section .imageWrap .parallax_image:nth-child(1){
+  position: relative;
+  background: url(../assets/main_6.png) bottom center no-repeat;
+  background-size: auto 1100px;
+  height: 400px;
+  width: 100%;
+  top: -400px;
 }
 
 
